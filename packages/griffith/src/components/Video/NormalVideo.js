@@ -11,7 +11,7 @@ const NormalVideo = props => {
     /* eslint-disable no-unused-vars */
     ...restProps
   } = props
-  return <video {...restProps} ref={onRef} />
+  return <video x5-video-player-type='h5-page' {...restProps} ref={onRef} />
 }
 
 export default {
